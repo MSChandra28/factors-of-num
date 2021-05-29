@@ -1,0 +1,17 @@
+n=int(input('enter number:'))
+i=1
+while (n>i):
+         if (n%i==0):
+                  print(i)
+                  i=i+1
+         else:
+                  i=i+1
+         
+         output:
+         enter number: 20
+         1
+         2
+         4
+         5
+         10
+         ......
